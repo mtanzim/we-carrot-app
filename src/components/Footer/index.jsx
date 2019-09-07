@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container-fluid">
         <div className="row justify-content-left">
           <div className="col-8 col-md-5">
-            <h5 className={styles.title}>we_carrot_app</h5>
+            <h5 className={styles.title}>Nulleimer</h5>
             <p className={styles.description}>
               We save waste!
             </p>
