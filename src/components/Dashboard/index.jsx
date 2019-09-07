@@ -11,7 +11,12 @@ class Dashboard extends React.Component {
   }
 
   componentDidMount() {
-    fetch(`${CONSTANTS.ENDPOINT}/wastes1`)
+    const mapToEndpoint = {
+      bgmeister: "wastes1",
+      gyaya: "wastes2",
+      futura: "wastes3"
+    };
+    fetch(`${CONSTANTS.ENDPOINT}/${mapToEndpoint[this.props.name]}`)
       .then(response => response.json())
       .then(data =>
         this.setState({

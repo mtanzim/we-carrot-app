@@ -12,7 +12,7 @@ const LoginPage = ({userLogged, setUserLogged}) => {
       return;
     }
 
-    if (password === '' || password === null) {
+    /* if (password === '' || password === null) {
       alert('Please input a password');
       return;
     }
@@ -20,7 +20,7 @@ const LoginPage = ({userLogged, setUserLogged}) => {
     if (password !== '123456') {
       alert('Username or password not found');
       return;
-    }
+    } */
 
     let id = null;
 
