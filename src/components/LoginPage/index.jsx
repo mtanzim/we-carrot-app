@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Redirect } from "react-router-dom";
+import CONSTANTS from "../../constants";
 
 const LoginPage = ({userLogged, setUserLogged}) => {
   const [username, setUsername] = useState('');
@@ -37,7 +38,7 @@ const LoginPage = ({userLogged, setUserLogged}) => {
         alert('Username or password not found');
     }
 
-    fetch(`http://5d738429214da600148f58b0.mockapi.io/api/v1/businesses/${id}`, {
+    fetch(`${CONSTANTS.ENDPOINT}/businesses/${id}`, {
       method: 'GET',
       mode: 'cors',
       cache: 'no-cache',
