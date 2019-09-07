@@ -36,7 +36,7 @@ function makeData(inputData, profile) {
 
 const profiles = [
   {
-    id: 0,
+    id: 1,
     title: "good",
     startEndIdx: 20,
     midEndIdx: 67,
@@ -45,7 +45,7 @@ const profiles = [
     endRange: [10, 20]
   },
   {
-    id: 1,
+    id: 2,
     title: "med",
     startEndIdx: 20,
     midEndIdx: 67,
@@ -54,7 +54,7 @@ const profiles = [
     endRange: [40, 50]
   },
   {
-    id: 2,
+    id: 3,
     title: "bad",
     startEndIdx: 20,
     midEndIdx: 67,
@@ -67,7 +67,7 @@ const profiles = [
 profiles.forEach(profile => {
   console.log(`Making ${profile.title}`);
   fs.writeFile(
-    `${profile.title}.json`,
+    `${profile.id}_${profile.title}.json`,
     JSON.stringify(makeData(inputData, profile), null, 4),
     "utf8",
     () => console.log("Done")

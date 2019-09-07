@@ -3,43 +3,43 @@
         "id": 0,
         "business_id": 1,
         "timestamp": "2019-01-01T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 43
     },
     {
         "id": 1,
         "business_id": 1,
         "timestamp": "2019-01-02T23:59:59.000Z",
-        "waste_kg": 44
+        "waste_kg": 42
     },
     {
         "id": 2,
         "business_id": 1,
         "timestamp": "2019-01-03T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 46
     },
     {
         "id": 3,
         "business_id": 1,
         "timestamp": "2019-01-04T23:59:59.000Z",
-        "waste_kg": 42
+        "waste_kg": 41
     },
     {
         "id": 4,
         "business_id": 1,
         "timestamp": "2019-01-05T23:59:59.000Z",
-        "waste_kg": 47
+        "waste_kg": 42
     },
     {
         "id": 5,
         "business_id": 1,
         "timestamp": "2019-01-06T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 45
     },
     {
         "id": 6,
         "business_id": 1,
         "timestamp": "2019-01-07T23:59:59.000Z",
-        "waste_kg": 45
+        "waste_kg": 49
     },
     {
         "id": 7,
@@ -51,49 +51,49 @@
         "id": 8,
         "business_id": 1,
         "timestamp": "2019-01-09T23:59:59.000Z",
-        "waste_kg": 47
+        "waste_kg": 41
     },
     {
         "id": 9,
         "business_id": 1,
         "timestamp": "2019-01-10T23:59:59.000Z",
-        "waste_kg": 47
+        "waste_kg": 49
     },
     {
         "id": 10,
         "business_id": 1,
         "timestamp": "2019-01-11T23:59:59.000Z",
-        "waste_kg": 43
+        "waste_kg": 48
     },
     {
         "id": 11,
         "business_id": 1,
         "timestamp": "2019-01-12T23:59:59.000Z",
-        "waste_kg": 44
+        "waste_kg": 47
     },
     {
         "id": 12,
         "business_id": 1,
         "timestamp": "2019-01-13T23:59:59.000Z",
-        "waste_kg": 46
+        "waste_kg": 47
     },
     {
         "id": 13,
         "business_id": 1,
         "timestamp": "2019-01-14T23:59:59.000Z",
-        "waste_kg": 45
+        "waste_kg": 43
     },
     {
         "id": 14,
         "business_id": 1,
         "timestamp": "2019-01-15T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 40
     },
     {
         "id": 15,
         "business_id": 1,
         "timestamp": "2019-01-16T23:59:59.000Z",
-        "waste_kg": 43
+        "waste_kg": 49
     },
     {
         "id": 16,
@@ -105,103 +105,103 @@
         "id": 17,
         "business_id": 1,
         "timestamp": "2019-01-18T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 42
     },
     {
         "id": 18,
         "business_id": 1,
         "timestamp": "2019-01-19T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 43
     },
     {
         "id": 19,
         "business_id": 1,
         "timestamp": "2019-01-20T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 49
     },
     {
         "id": 20,
         "business_id": 1,
         "timestamp": "2019-01-21T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 18
     },
     {
         "id": 21,
         "business_id": 1,
         "timestamp": "2019-01-22T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 43
     },
     {
         "id": 22,
         "business_id": 1,
         "timestamp": "2019-01-23T23:59:59.000Z",
-        "waste_kg": 44
+        "waste_kg": 40
     },
     {
         "id": 23,
         "business_id": 1,
         "timestamp": "2019-01-24T23:59:59.000Z",
-        "waste_kg": 46
+        "waste_kg": 30
     },
     {
         "id": 24,
         "business_id": 1,
         "timestamp": "2019-01-25T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 36
     },
     {
         "id": 25,
         "business_id": 1,
         "timestamp": "2019-01-26T23:59:59.000Z",
-        "waste_kg": 40
+        "waste_kg": 44
     },
     {
         "id": 26,
         "business_id": 1,
         "timestamp": "2019-01-27T23:59:59.000Z",
-        "waste_kg": 49
+        "waste_kg": 46
     },
     {
         "id": 27,
         "business_id": 1,
         "timestamp": "2019-01-28T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 47
     },
     {
         "id": 28,
         "business_id": 1,
         "timestamp": "2019-01-29T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 31
     },
     {
         "id": 29,
         "business_id": 1,
         "timestamp": "2019-01-30T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 42
     },
     {
         "id": 30,
         "business_id": 1,
         "timestamp": "2019-02-01T23:59:59.000Z",
-        "waste_kg": 44
+        "waste_kg": 45
     },
     {
         "id": 31,
         "business_id": 1,
         "timestamp": "2019-02-02T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 35
     },
     {
         "id": 32,
         "business_id": 1,
         "timestamp": "2019-02-03T23:59:59.000Z",
-        "waste_kg": 45
+        "waste_kg": 31
     },
     {
         "id": 33,
         "business_id": 1,
         "timestamp": "2019-02-04T23:59:59.000Z",
-        "waste_kg": 42
+        "waste_kg": 45
     },
     {
         "id": 34,
@@ -213,49 +213,49 @@
         "id": 35,
         "business_id": 1,
         "timestamp": "2019-02-06T23:59:59.000Z",
-        "waste_kg": 47
+        "waste_kg": 30
     },
     {
         "id": 36,
         "business_id": 1,
         "timestamp": "2019-02-07T23:59:59.000Z",
-        "waste_kg": 47
+        "waste_kg": 44
     },
     {
         "id": 37,
         "business_id": 1,
         "timestamp": "2019-02-08T23:59:59.000Z",
-        "waste_kg": 46
+        "waste_kg": 32
     },
     {
         "id": 38,
         "business_id": 1,
         "timestamp": "2019-02-09T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 33
     },
     {
         "id": 39,
         "business_id": 1,
         "timestamp": "2019-02-10T23:59:59.000Z",
-        "waste_kg": 40
+        "waste_kg": 43
     },
     {
         "id": 40,
         "business_id": 1,
         "timestamp": "2019-02-11T23:59:59.000Z",
-        "waste_kg": 45
+        "waste_kg": 43
     },
     {
         "id": 41,
         "business_id": 1,
         "timestamp": "2019-02-12T23:59:59.000Z",
-        "waste_kg": 49
+        "waste_kg": 44
     },
     {
         "id": 42,
         "business_id": 1,
         "timestamp": "2019-02-13T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 49
     },
     {
         "id": 43,
@@ -267,7 +267,7 @@
         "id": 44,
         "business_id": 1,
         "timestamp": "2019-02-15T23:59:59.000Z",
-        "waste_kg": 43
+        "waste_kg": 44
     },
     {
         "id": 45,
@@ -279,61 +279,61 @@
         "id": 46,
         "business_id": 1,
         "timestamp": "2019-02-17T23:59:59.000Z",
-        "waste_kg": 42
+        "waste_kg": 41
     },
     {
         "id": 47,
         "business_id": 1,
         "timestamp": "2019-02-18T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 36
     },
     {
         "id": 48,
         "business_id": 1,
         "timestamp": "2019-02-19T23:59:59.000Z",
-        "waste_kg": 43
+        "waste_kg": 37
     },
     {
         "id": 49,
         "business_id": 1,
         "timestamp": "2019-02-20T23:59:59.000Z",
-        "waste_kg": 49
+        "waste_kg": 35
     },
     {
         "id": 50,
         "business_id": 1,
         "timestamp": "2019-02-21T23:59:59.000Z",
-        "waste_kg": 46
+        "waste_kg": 37
     },
     {
         "id": 51,
         "business_id": 1,
         "timestamp": "2019-02-22T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 30
     },
     {
         "id": 52,
         "business_id": 1,
         "timestamp": "2019-02-23T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 36
     },
     {
         "id": 53,
         "business_id": 1,
         "timestamp": "2019-02-24T23:59:59.000Z",
-        "waste_kg": 40
+        "waste_kg": 36
     },
     {
         "id": 54,
         "business_id": 1,
         "timestamp": "2019-02-25T23:59:59.000Z",
-        "waste_kg": 49
+        "waste_kg": 38
     },
     {
         "id": 55,
         "business_id": 1,
         "timestamp": "2019-02-26T23:59:59.000Z",
-        "waste_kg": 43
+        "waste_kg": 44
     },
     {
         "id": 56,
@@ -345,258 +345,258 @@
         "id": 57,
         "business_id": 1,
         "timestamp": "2019-02-28T23:59:59.000Z",
-        "waste_kg": 46
+        "waste_kg": 34
     },
     {
         "id": 58,
         "business_id": 1,
         "timestamp": "2019-03-01T23:59:59.000Z",
-        "waste_kg": 43
+        "waste_kg": 32
     },
     {
         "id": 59,
         "business_id": 1,
         "timestamp": "2019-03-02T23:59:59.000Z",
-        "waste_kg": 45
+        "waste_kg": 41
     },
     {
         "id": 60,
         "business_id": 1,
         "timestamp": "2019-03-03T23:59:59.000Z",
-        "waste_kg": 49
+        "waste_kg": 40
     },
     {
         "id": 61,
         "business_id": 1,
         "timestamp": "2019-03-04T23:59:59.000Z",
-        "waste_kg": 44
+        "waste_kg": 49
     },
     {
         "id": 62,
         "business_id": 1,
         "timestamp": "2019-03-05T23:59:59.000Z",
-        "waste_kg": 47
+        "waste_kg": 39
     },
     {
         "id": 63,
         "business_id": 1,
         "timestamp": "2019-03-06T23:59:59.000Z",
-        "waste_kg": 42
+        "waste_kg": 37
     },
     {
         "id": 64,
         "business_id": 1,
         "timestamp": "2019-03-07T23:59:59.000Z",
-        "waste_kg": 49
+        "waste_kg": 46
     },
     {
         "id": 65,
         "business_id": 1,
         "timestamp": "2019-03-08T23:59:59.000Z",
-        "waste_kg": 40
+        "waste_kg": 31
     },
     {
         "id": 66,
         "business_id": 1,
         "timestamp": "2019-03-09T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 41
     },
     {
         "id": 67,
         "business_id": 1,
         "timestamp": "2019-03-10T23:59:59.000Z",
-        "waste_kg": 40
+        "waste_kg": 10
     },
     {
         "id": 68,
         "business_id": 1,
         "timestamp": "2019-03-11T23:59:59.000Z",
-        "waste_kg": 44
+        "waste_kg": 19
     },
     {
         "id": 69,
         "business_id": 1,
         "timestamp": "2019-03-12T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 19
     },
     {
         "id": 70,
         "business_id": 1,
         "timestamp": "2019-03-13T23:59:59.000Z",
-        "waste_kg": 45
+        "waste_kg": 19
     },
     {
         "id": 71,
         "business_id": 1,
         "timestamp": "2019-03-14T23:59:59.000Z",
-        "waste_kg": 44
+        "waste_kg": 19
     },
     {
         "id": 72,
         "business_id": 1,
         "timestamp": "2019-03-15T23:59:59.000Z",
-        "waste_kg": 42
+        "waste_kg": 16
     },
     {
         "id": 73,
         "business_id": 1,
         "timestamp": "2019-03-16T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 12
     },
     {
         "id": 74,
         "business_id": 1,
         "timestamp": "2019-03-17T23:59:59.000Z",
-        "waste_kg": 43
+        "waste_kg": 19
     },
     {
         "id": 75,
         "business_id": 1,
         "timestamp": "2019-03-18T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 11
     },
     {
         "id": 76,
         "business_id": 1,
         "timestamp": "2019-03-19T23:59:59.000Z",
-        "waste_kg": 49
+        "waste_kg": 15
     },
     {
         "id": 77,
         "business_id": 1,
         "timestamp": "2019-03-20T23:59:59.000Z",
-        "waste_kg": 44
+        "waste_kg": 18
     },
     {
         "id": 78,
         "business_id": 1,
         "timestamp": "2019-03-21T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 13
     },
     {
         "id": 79,
         "business_id": 1,
         "timestamp": "2019-03-22T23:59:59.000Z",
-        "waste_kg": 44
+        "waste_kg": 11
     },
     {
         "id": 80,
         "business_id": 1,
         "timestamp": "2019-03-23T23:59:59.000Z",
-        "waste_kg": 41
+        "waste_kg": 15
     },
     {
         "id": 81,
         "business_id": 1,
         "timestamp": "2019-03-24T23:59:59.000Z",
-        "waste_kg": 49
+        "waste_kg": 19
     },
     {
         "id": 82,
         "business_id": 1,
         "timestamp": "2019-03-25T23:59:59.000Z",
-        "waste_kg": 42
+        "waste_kg": 17
     },
     {
         "id": 83,
         "business_id": 1,
         "timestamp": "2019-03-26T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 16
     },
     {
         "id": 84,
         "business_id": 1,
         "timestamp": "2019-03-27T23:59:59.000Z",
-        "waste_kg": 45
+        "waste_kg": 13
     },
     {
         "id": 85,
         "business_id": 1,
         "timestamp": "2019-03-28T23:59:59.000Z",
-        "waste_kg": 43
+        "waste_kg": 18
     },
     {
         "id": 86,
         "business_id": 1,
         "timestamp": "2019-03-29T23:59:59.000Z",
-        "waste_kg": 42
+        "waste_kg": 12
     },
     {
         "id": 87,
         "business_id": 1,
         "timestamp": "2019-03-30T23:59:59.000Z",
-        "waste_kg": 45
+        "waste_kg": 18
     },
     {
         "id": 88,
         "business_id": 1,
         "timestamp": "2019-03-31T23:59:59.000Z",
-        "waste_kg": 40
+        "waste_kg": 15
     },
     {
         "id": 89,
         "business_id": 1,
         "timestamp": "2019-04-01T23:59:59.000Z",
-        "waste_kg": 49
+        "waste_kg": 10
     },
     {
         "id": 90,
         "business_id": 1,
         "timestamp": "2019-04-02T23:59:59.000Z",
-        "waste_kg": 42
+        "waste_kg": 17
     },
     {
         "id": 91,
         "business_id": 1,
         "timestamp": "2019-04-03T23:59:59.000Z",
-        "waste_kg": 44
+        "waste_kg": 11
     },
     {
         "id": 92,
         "business_id": 1,
         "timestamp": "2019-04-04T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 15
     },
     {
         "id": 93,
         "business_id": 1,
         "timestamp": "2019-04-05T23:59:59.000Z",
-        "waste_kg": 43
+        "waste_kg": 19
     },
     {
         "id": 94,
         "business_id": 1,
         "timestamp": "2019-04-06T23:59:59.000Z",
-        "waste_kg": 45
+        "waste_kg": 14
     },
     {
         "id": 95,
         "business_id": 1,
         "timestamp": "2019-04-07T23:59:59.000Z",
-        "waste_kg": 47
+        "waste_kg": 13
     },
     {
         "id": 96,
         "business_id": 1,
         "timestamp": "2019-04-08T23:59:59.000Z",
-        "waste_kg": 47
+        "waste_kg": 12
     },
     {
         "id": 97,
         "business_id": 1,
         "timestamp": "2019-04-09T23:59:59.000Z",
-        "waste_kg": 48
+        "waste_kg": 11
     },
     {
         "id": 98,
         "business_id": 1,
         "timestamp": "2019-04-10T23:59:59.000Z",
-        "waste_kg": 49
+        "waste_kg": 10
     },
     {
         "id": 99,
         "business_id": 1,
         "timestamp": "2019-04-11T23:59:59.000Z",
-        "waste_kg": 45
+        "waste_kg": 18
     }
 ]
