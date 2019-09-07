@@ -1,75 +1,44 @@
-﻿## Getting Started
+# Nulleimer (by: We Carrot)
 
-In the root directory of the project...
+Incentivise restaurants to receive a low-waste certified (consumer-facing) badge by tracking waste through B2B software and IOT trash can.
 
-1. Install node modules `yarn install` or `npm install`.
-2. Install Python dependencies `cd server && pipenv install`
-2. Start development server `yarn start` or `npm start`.
+## Requirements
 
-## Next Steps
+### Locally
 
+Install [NVM](https://github.com/nvm-sh/nvm) or [NODENV](https://github.com/nodenv/nodenv) on your system, and then install the LTS version of NodeJS.
 
-### Adding a New Page
+### Docker
 
-1. Create a folder in `/src/components` with your react components.
-2. Add a route for your page to `/src/App.js`.
-3. Add a button to the navigation bar in `/src/components/NavBar/index.js`.
+Install Docker on your machine: [https://www.docker.com/get-started](https://www.docker.com/get-started)
 
+After the installation, go to preferences, and set the number of CPUs to the maximum capacity of your computer (to improve performance).
 
-### Deployment
+## Building the images
 
-If you selected Azure App Service when creating your project, follow these steps:
+From within the root folder of the project:
 
-1. Press `Ctrl + Shift + P` in Windows/Linux or `Shift ⇧ + Command ⌘ + P` in Mac and type/select `Web Template Studio: Deploy App` to start deploying your app.
-2. Once the deployment is done, click "Browse website" in the notification window on the lower right corner to check out your newly deployed app.
-
-If you did not select Azure App Service and want to create a new Azure App Service web app, follow these steps:
-
-1. Press `Ctrl + Shift + P` in Windows/Linux or `Shift ⇧ + Command ⌘ + P` in Mac and type/select `Azure App Service: Create New Web App...` to create a new web app.
-   - Select your subscription
-   - Enter your web app name
-   - Select Linux as your OS
-   - Select Node.js 10.14 for a Node/Express application, Python 3.7 for a Flask application
-2. Press `Ctrl + Shift + P` in Windows/Linux or `Shift ⇧ + Command ⌘ + P` in Mac and type/select `Web Template Studio: Deploy App` to start deploying your app.
-   - You will have to select the same subscription again
-   - Find the web app that you've just created
-   - Click "Yes" in the notification window on the lower right corner (build prompt)
-   - Click "Deploy" on the window pop-up (deploy window)
-   - Click "Yes" on the notification window on the lower right corner (default prompt)
-3. Once the deployment is done, click "Browse website" in the notification window on the lower right corner to check out your newly deployed app.
-
-Consider adding authentication and securing back-end API's by following [Azure App Service Security](https://docs.microsoft.com/en-us/azure/app-service/overview-security).
-
-Full documentation for deployment to Azure App Service can be found here: [Deployment Docs](https://github.com/Microsoft/WebTemplateStudio/blob/dev/docs/deployment.md).
-
-## File Structure
-
-The front-end is based on [create-react-app](https://github.com/facebook/create-react-app).
-
-The back-end is based on [Flask](https://github.com/pallets/flask).
-
-The front-end is served on http://localhost:3000/ and the back-end on http://localhost:3001/.
-
-```
-.
-├── server/ - Flask server that provides API routes and serves front-end
-│ ├── constants.py - Defines the constants for the endpoints and port
-│ └── server.py - Configures Port and HTTP Server and provides API routes
-├── src - React front-end
-│ ├── components - React components for each page
-│ ├── App.jsx - React routing
-│ └── index.jsx - React root component
-└── README.md
+```bash
+docker build -f Dockerfile -t we-carrot-app .
 ```
 
-## Additional Documentation
+## Running
 
+From within the root folder of the project:
 
-- React - https://reactjs.org/
-- React Router - https://reacttraining.com/react-router/
+```bash
+ # before the first time
+docker run --rm -v $(pwd):/wecarrot:delegated -w /wecarrot we-carrot-app npm install
 
-- Bootstrap CSS - https://getbootstrap.com/
-- Flask - http://flask.pocoo.org/
+# after the first time
+docker run -it --rm -v $(pwd):/wecarrot:delegated -w /wecarrot -p 3000:3000 --name WeCarrotApp we-carrot-app
+```
 
+## Other
 
-  This project was created using [Microsoft Web Template Studio](https://github.com/Microsoft/WebTemplateStudio).
+From within the root folder of the project:
+
+```bash
+docker exec -it WeCarrotApp ash # enters a running container
+docker kill WeCarrotApp # kills a running container
+```
