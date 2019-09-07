@@ -16,6 +16,9 @@ const NavBar = ({userLogged, logOut}) => {
           <Link className="mr-2" to="/dashboard">
             Dashboard
           </Link>
+          <Link className="mr-2" to="/maps">
+            List
+          </Link>
           <Link className="mr-2" to="/guide">
             Guide
           </Link>
