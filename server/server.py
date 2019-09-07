@@ -3,15 +3,15 @@ import os
 from os.path import exists, join
 
 from constants import CONSTANTS
-from sample_data import sample_data
+# from sample_data import sample_data
 
 
 app = Flask(__name__, static_folder='build')
 
 # Grid Page Endpoint
-@app.route(CONSTANTS['ENDPOINT']['GRID'])
-def get_grid():
-    return jsonify(sample_data['text_assets'])
+# @app.route(CONSTANTS['ENDPOINT']['GRID'])
+# def get_grid():
+#     return jsonify(sample_data['text_assets'])
 
 # Catching all routes
 # This route is used to serve all the routes in the frontend application after deployment.
