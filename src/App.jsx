@@ -7,6 +7,7 @@ import LoginPage from "./components/LoginPage";
 import Dashboard from "./components/Dashboard";
 import Footer from "./components/Footer";
 import Maps from "./components/Maps";
+import BlankPage from "./components/Blank";
 
 const App = () => {
   const [userLogged, setUserLogged] = useState(false);
@@ -29,9 +30,10 @@ const App = () => {
       <Switch>
           <Route path="/login" render={(props) => <LoginPage {...props} userLogged={userLogged} setUserLogged={setUserLogged} />} />
           <Route path="/maps" component={Maps} />
+          <Route path="/about" render={(props) => <BlankPage {...props} title={"About"} />} />
           <PrivateRoute path="/dashboard" component={Dashboard} userLogged={userLogged} business={localStorage.getItem('business')} />
-          <PrivateRoute path="/guide" component={Dashboard} userLogged={userLogged} business={localStorage.getItem('business')} />
-          <PrivateRoute path="/account" component={Dashboard} userLogged={userLogged} business={localStorage.getItem('business')} />
+          <PrivateRoute path="/guide" component={BlankPage} userLogged={userLogged} title={"Guide"} />
+          <PrivateRoute path="/account" component={BlankPage} userLogged={userLogged} title={"Account"} />
       </Switch>
       <Footer />
     </React.Fragment>
