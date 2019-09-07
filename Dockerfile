@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:12-alpine
 
 RUN mkdir /wecarrot
 WORKDIR /wecarrot
