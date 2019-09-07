@@ -1,10 +1,8 @@
-﻿import React from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./navbar.module.css";
 
-//TODO Web Template Studio: Add a new link in the NavBar for your page here.
-// A skip link is included as an accessibility best practice. For more information visit https://www.w3.org/WAI/WCAG21/Techniques/general/G1.
-export default function NavBar() {
+const NavBar = ({userLogged, logOut}) => {
   return (
     <React.Fragment>
       <div className={styles.skipLink}>
@@ -24,11 +22,13 @@ export default function NavBar() {
           <Link className="mr-2" to="/account">
             Account
           </Link>
-          <Link className="mr-2" to="/logout">
-            Logout
+          <Link className="mr-2" to={userLogged ? "/logout" : "/login"} onClick={userLogged ? logOut : null}>
+            {userLogged ? "Logout" : "Login"}
           </Link>
         </div>
       </nav>
     </React.Fragment>
   );
 }
+
+export default NavBar;
