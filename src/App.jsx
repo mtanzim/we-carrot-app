@@ -29,6 +29,11 @@ const App = () => {
       <NavBar userLogged={userLogged} logOut={logOut} />
       <Switch>
         <Route
+          exact
+          path="/"
+          render={props => <BlankPage {...props} title={"Home"} />}
+        />
+        <Route
           path="/login"
           render={props => (
             <LoginPage
@@ -43,6 +48,7 @@ const App = () => {
           path="/about"
           render={props => <BlankPage {...props} title={"About"} />}
         />
+
         <PrivateRoute
           path="/dashboard"
           component={Dashboard}
