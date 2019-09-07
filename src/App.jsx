@@ -1,21 +1,38 @@
-﻿import React, { Component } from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
+import PrivateRoute from "./components/PrivateRoute";
 import NavBar from "./components/NavBar";
+import LoginPage from "./components/LoginPage";
+import Dashboard from "./components/Dashboard";
 import Footer from "./components/Footer";
 
-//TODO Web Template Studio: Add routes for your new pages here.
-class App extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <NavBar />
-        <Switch>
-        </Switch>
-        <Footer />
-      </React.Fragment>
-    );
-  }
+const App = () => {
+  const [userLogged, setUserLogged] = useState(false);
+
+  useEffect(() => {
+    if (localStorage.getItem('business') !== null) {
+      setUserLogged(true);
+    }
+  }, []);
+
+  const logOut = () => {
+    localStorage.removeItem('business');
+    setUserLogged(false);
+  };
+
+  return (
+    <React.Fragment>
+      <NavBar userLogged={userLogged} logOut={logOut} />
+      <Router>
+        <React.Fragment>
+          <Route path="/login" render={(props) => <LoginPage {...props} userLogged={userLogged} setUserLogged={setUserLogged} />} />
+          <PrivateRoute path="/dashboard" component={Dashboard} userLogged={userLogged} />
+        </React.Fragment>
+      </Router>
+      <Footer />
+    </React.Fragment>
+  );
 }
 
 export default App;
