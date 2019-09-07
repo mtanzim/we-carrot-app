@@ -27,7 +27,7 @@ const App = () => {
       <Router>
         <React.Fragment>
           <Route path="/login" render={(props) => <LoginPage {...props} userLogged={userLogged} setUserLogged={setUserLogged} />} />
-          <PrivateRoute path="/dashboard" component={Dashboard} userLogged={userLogged} />
+          <PrivateRoute path="/dashboard" component={Dashboard} userLogged={userLogged} business={localStorage.getItem('business')} />
         </React.Fragment>
       </Router>
       <Footer />
