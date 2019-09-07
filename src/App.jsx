@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Dashboard from "./components/Dashboard";
 import Home from "./components/Home";
+import Maps from "./components/Maps";
 
 //TODO Web Template Studio: Add routes for your new pages here.
 class App extends Component {
@@ -37,7 +38,7 @@ class App extends Component {
               <Dashboard {...props} restaurant={this.restaurant} />
             )}
           />
-          />
+          <Route path="/maps" component={Maps} />
         </Switch>
         <Footer />
       </React.Fragment>

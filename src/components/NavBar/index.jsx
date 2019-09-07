@@ -20,6 +20,9 @@ export default function NavBar({ isAuth, logout }) {
               <Link className="mr-2" to="/dashboard">
                 Dashboard
               </Link>
+              <Link className="mr-2" to="/maps">
+                Maps
+              </Link>
               <Link className="mr-2" to="/guide">
                 Guide
               </Link>
