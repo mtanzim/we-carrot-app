@@ -4,7 +4,7 @@ import styles from "./navbar.module.css";
 
 //TODO Web Template Studio: Add a new link in the NavBar for your page here.
 // A skip link is included as an accessibility best practice. For more information visit https://www.w3.org/WAI/WCAG21/Techniques/general/G1.
-export default function NavBar() {
+export default function NavBar({isAuth, logout}) {
   return (
     <React.Fragment>
       <div className={styles.skipLink}>
@@ -15,6 +15,8 @@ export default function NavBar() {
           Nulleimer
         </Link>
         <div className="navbar-nav">
+          {isAuth && (
+            <>
           <Link className="mr-2" to="/dashboard">
             Dashboard
           </Link>
@@ -24,9 +26,12 @@ export default function NavBar() {
           <Link className="mr-2" to="/account">
             Account
           </Link>
-          <Link className="mr-2" to="/logout">
+          {/* <Link className="mr-2" to="/logout">
             Logout
-          </Link>
+          </Link> */}
+          <button onClick={logout}>Logout</button>
+
+          </>)}
         </div>
       </nav>
     </React.Fragment>

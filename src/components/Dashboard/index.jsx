@@ -44,7 +44,7 @@ class Dashboard extends React.Component {
             <Card title="Badge" content={"image here"} />
           </div>
           <div className="col-2 ml-2 mt-2 mr-2 mb-2 mx-auto">
-            <Card title="Score" content={"score here"}/>
+            <Card title="Score" content={"score here"} />
           </div>
         </div>
       </React.Fragment>
