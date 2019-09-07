@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {  Route, Switch } from "react-router-dom";
+import {  Route, Switch, Redirect } from "react-router-dom";
 import "./App.css";
 import PrivateRoute from "./components/PrivateRoute";
 import NavBar from "./components/NavBar";
@@ -17,7 +17,8 @@ const App = () => {
     }
   }, []);
 
-  const logOut = () => {
+  const logOut = (e) => {
+    e.preventDefault();
     localStorage.removeItem('business');
     setUserLogged(false);
   };
@@ -26,11 +27,11 @@ const App = () => {
     <React.Fragment>
       <NavBar userLogged={userLogged} logOut={logOut} />
       <Switch>
-        {/* <React.Fragment> */}
           <Route path="/login" render={(props) => <LoginPage {...props} userLogged={userLogged} setUserLogged={setUserLogged} />} />
           <Route path="/maps" component={Maps} />
           <PrivateRoute path="/dashboard" component={Dashboard} userLogged={userLogged} business={localStorage.getItem('business')} />
-        {/* </React.Fragment> */}
+          <PrivateRoute path="/guide" component={Dashboard} userLogged={userLogged} business={localStorage.getItem('business')} />
+          <PrivateRoute path="/account" component={Dashboard} userLogged={userLogged} business={localStorage.getItem('business')} />
       </Switch>
       <Footer />
     </React.Fragment>
