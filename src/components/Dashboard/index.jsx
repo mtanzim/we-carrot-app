@@ -17,25 +17,26 @@ class Dashboard extends React.Component {
         height: this.height,
         title: this.props.restaurant.name,
         xaxis: {
-          autorange: true,
-          range: ['2019-02-17', '2019-12-16'],
-          rangeselector: {buttons: [
-              {
-                count: 1,
-                label: '1w',
-                step: 'week',
-                stepmode: 'backward'
-              },
-              {
-                count: 6,
-                label: '6m',
-                step: 'month',
-                stepmode: 'backward'
-              },
-              {step: 'all'}
-            ]},
-          rangeslider: {range: ['2019-02-17', '2019-12-16']},
-          type: 'date'
+          title: "Mon"
+          // autorange: true,
+          // range: ['2019-02-17', '2019-12-16'],
+          // rangeselector: {buttons: [
+          //     {
+          //       count: 1,
+          //       label: '1w',
+          //       step: 'week',
+          //       stepmode: 'backward'
+          //     },
+          //     {
+          //       count: 6,
+          //       label: '6m',
+          //       step: 'month',
+          //       stepmode: 'backward'
+          //     },
+          //     {step: 'all'}
+          //   ]},
+          // rangeslider: {range: ['2019-02-17', '2019-12-16']},
+          // type: 'date'
         },
         yaxis: {
           title: "Waste [kg]",
