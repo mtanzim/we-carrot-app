@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import PrivateRoute from "./components/PrivateRoute";
 import NavBar from "./components/NavBar";
@@ -47,7 +47,7 @@ const App = () => {
           path="/dashboard"
           component={Dashboard}
           userLogged={userLogged}
-          business={localStorage.getItem("business")}
+          business={JSON.parse(localStorage.getItem("business"))}
         />
         <PrivateRoute
           path="/guide"

@@ -16,11 +16,20 @@ class Dashboard extends React.Component {
       gyaya: "wastes2",
       futura: "wastes3"
     };
-    fetch(`${CONSTANTS.ENDPOINT}/${mapToEndpoint[this.props.name]}`)
+    // console.log(this.props);
+    console.log(this.props.business.username);
+    console.log(this.props.business.name);
+    console.log(mapToEndpoint[this.props.business.username]);
+    fetch(`${CONSTANTS.ENDPOINT}${mapToEndpoint[this.props.business.username]}`)
       .then(response => response.json())
       .then(data =>
         this.setState({
-          title: this.props.business.name,
+          // title: this.props.business.name,
+          // title: "Hello",
+          layout: {
+            ...this.state.layout,
+            title:this.props.business.name,
+          },
           data: [
             {
               type: "line",

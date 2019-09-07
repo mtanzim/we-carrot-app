@@ -36,6 +36,7 @@ const LoginPage = ({userLogged, setUserLogged}) => {
         break;
       default:
         alert('Username or password not found');
+        return null;
     }
 
     fetch(`${CONSTANTS.ENDPOINT}/businesses/${id}`, {
