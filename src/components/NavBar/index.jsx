@@ -10,7 +10,7 @@ const NavBar = ({userLogged, logOut}) => {
       </div>
       <nav className="navbar navbar-expand-sm navbar-light border-bottom justify-content-between">
         <Link className="navbar-brand" to="/">
-          we_carrot_app
+          Nulleiemer
         </Link>
         <div className="navbar-nav">
           <Link className="mr-2" to="/dashboard">
