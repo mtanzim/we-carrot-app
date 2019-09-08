@@ -21,6 +21,11 @@ footer {
   background-color: #025fce !important;
 }
 
+.app-container {
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
 button:focus,
 button:active {
   outline: none !important;

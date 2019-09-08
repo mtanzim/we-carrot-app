@@ -27,7 +27,7 @@ const App = () => {
   return (
     <React.Fragment>
       <NavBar userLogged={userLogged} logOut={logOut} />
-      <div className="container-fluid">
+      <div className="app-container container">
       <Switch>
         <Route
           exact

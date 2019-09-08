@@ -61,11 +61,11 @@ const LoginPage = ({userLogged, setUserLogged}) => {
 
   return (
     <React.Fragment>
-      <h1>Login</h1>
-      <div className="form-group">
-        <input type="text" name="username" placeholder="username" value={username} onChange={e => setUsername(e.target.value)} />
-        <input type="password" name="username" placeholder="password" value={password} onChange={e => setPassword(e.target.value)} />
-        <input type="button" value="Sign in" onClick={login} />
+      <h2 className="ml-2">Login</h2>
+      <div className="form-group row">
+        <input className="ml-4" type="text" name="username" placeholder="Username" value={username} onChange={e => setUsername(e.target.value)} />
+        <input className="ml-4" type="password" name="username" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} />
+        <input className="btn btn-primary" type="button" value="Sign in" onClick={login} />
       </div>
     </React.Fragment>
   );

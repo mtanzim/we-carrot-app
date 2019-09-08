@@ -28,7 +28,7 @@ class Dashboard extends React.Component {
           // title: "Hello",
           layout: {
             ...this.state.layout,
-            title:this.props.business.name,
+            title: this.props.business.name
           },
           data: [
             {
@@ -44,8 +44,16 @@ class Dashboard extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="row ml-2 mt-2 mr-2 mb-2 mx-auto">
-          <div className="col-8 ml-2 mt-2 mr-2 mb-2 mx-auto">
+        <div className="ml-2 mt-2 mr-2 mb-2">
+          <div className="row">
+            <div className="col-md">
+              <Card title="Badge" content={"image"} />
+            </div>
+            <div className="col-md">
+              <Card title="Score" content={"score "} />
+            </div>
+          </div>
+          <div className="ml-2 mt-2 mr-2 mb-2">
             <Plot
               data={this.state.data}
               layout={this.state.layout}
@@ -54,12 +62,6 @@ class Dashboard extends React.Component {
               onInitialized={figure => this.setState(figure)}
               onUpdate={figure => this.setState(figure)}
             />
-          </div>
-          <div className="col-2 ml-2 mt-2 mr-2 mb-2 mx-auto">
-            <Card title="Badge" content={"image here"} />
-          </div>
-          <div className="col-2 ml-2 mt-2 mr-2 mb-2 mx-auto">
-            <Card title="Score" content={"score here"} />
           </div>
         </div>
       </React.Fragment>
