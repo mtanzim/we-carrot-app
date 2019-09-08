@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.546ccb71.chunk.css",
-    "main.js": "/static/js/main.55522134.chunk.js",
-    "main.js.map": "/static/js/main.55522134.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.4b05d0a5.js",
-    "runtime~main.js.map": "/static/js/runtime~main.4b05d0a5.js.map",
-    "static/css/2.1e66eaca.chunk.css": "/static/css/2.1e66eaca.chunk.css",
-    "static/js/2.c3b8c567.chunk.js": "/static/js/2.c3b8c567.chunk.js",
-    "static/js/2.c3b8c567.chunk.js.map": "/static/js/2.c3b8c567.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6cc3f0d5484093d91aaae10967e11185.js": "/precache-manifest.6cc3f0d5484093d91aaae10967e11185.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.1e66eaca.chunk.css.map": "/static/css/2.1e66eaca.chunk.css.map",
-    "static/css/main.546ccb71.chunk.css.map": "/static/css/main.546ccb71.chunk.css.map"
+    "main.css": "/we-carrot-app/static/css/main.546ccb71.chunk.css",
+    "main.js": "/we-carrot-app/static/js/main.07d74ffe.chunk.js",
+    "main.js.map": "/we-carrot-app/static/js/main.07d74ffe.chunk.js.map",
+    "runtime~main.js": "/we-carrot-app/static/js/runtime~main.7855ea5a.js",
+    "runtime~main.js.map": "/we-carrot-app/static/js/runtime~main.7855ea5a.js.map",
+    "static/css/2.1e66eaca.chunk.css": "/we-carrot-app/static/css/2.1e66eaca.chunk.css",
+    "static/js/2.c3b8c567.chunk.js": "/we-carrot-app/static/js/2.c3b8c567.chunk.js",
+    "static/js/2.c3b8c567.chunk.js.map": "/we-carrot-app/static/js/2.c3b8c567.chunk.js.map",
+    "index.html": "/we-carrot-app/index.html",
+    "precache-manifest.209497d4696b5f4f6b4243713eff422e.js": "/we-carrot-app/precache-manifest.209497d4696b5f4f6b4243713eff422e.js",
+    "service-worker.js": "/we-carrot-app/service-worker.js",
+    "static/css/2.1e66eaca.chunk.css.map": "/we-carrot-app/static/css/2.1e66eaca.chunk.css.map",
+    "static/css/main.546ccb71.chunk.css.map": "/we-carrot-app/static/css/main.546ccb71.chunk.css.map"
   }
 }
