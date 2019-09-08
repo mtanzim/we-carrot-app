@@ -42,7 +42,7 @@ const NavBar = ({ userLogged, logOut }) => {
             to={userLogged ? "/logout" : "/login"}
             onClick={userLogged ? logOut : null}
           >
-            {userLogged ? "Logout" : "Login"}
+            {userLogged ? "Logout" : "Business Login"}
           </Link>
         </div>
       </nav>

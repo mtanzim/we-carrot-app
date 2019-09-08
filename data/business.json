@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Burgermeister",
+    "address": "Skalitzer str. 136, 10999 Berlin",
+    "latitude": "52.499603",
+    "longitude": "13.4164933",
+    "has_badge": false,
+    "username": "bgmeister",
+    "password": "123456"
+  },
+  {
+    "id": "2",
+    "name": "Gayaya",
+    "address": "Reinhardstraße 11, 10117 Berlin",
+    "latitude": "52.5234",
+    "longitude": "13.3838353",
+    "has_badge": true,
+    "username": "gyaya",
+    "password": "123456"
+  },
+  {
+    "id": "3",
+    "name": "FUTURA Neapolitan Pizza",
+    "address": "Bänschstraße 91, 10247 Berlin",
+    "latitude": "52.5173099",
+    "longitude": "13.4692436",
+    "has_badge": true,
+    "username": "futura",
+    "password": "123456"
+  }
+]
