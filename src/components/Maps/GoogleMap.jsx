@@ -38,7 +38,7 @@ export class MapContainer extends Component {
           lng: this.props.businesses[0].longitude
         }}
         google={this.props.google}
-        zoom={14}
+        zoom={12}
       >
         {this.displayMarkers()}
       </Map>
