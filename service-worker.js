@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/we-carrot-app/precache-manifest.209497d4696b5f4f6b4243713eff422e.js"
+  "/we-carrot-app/precache-manifest.9c2ed640f28bf4532d8ca68c26f4f7ec.js"
 );
 
 self.addEventListener('message', (event) => {

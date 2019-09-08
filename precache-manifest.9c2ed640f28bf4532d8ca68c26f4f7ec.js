@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3550b87ef920a6c44322f624f6b6b091",
+    "revision": "bebafb4ecb53e924d7f8785b719f6428",
     "url": "/we-carrot-app/index.html"
   },
   {
