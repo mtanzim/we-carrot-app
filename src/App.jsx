@@ -27,6 +27,7 @@ const App = () => {
   return (
     <React.Fragment>
       <NavBar userLogged={userLogged} logOut={logOut} />
+      <div className="container-fluid">
       <Switch>
         <Route
           exact
@@ -68,6 +69,7 @@ const App = () => {
           title={"Account"}
         />
       </Switch>
+      </div>
       <Footer />
     </React.Fragment>
   );
